@@ -25,18 +25,18 @@
 	font-size:0.7em;
 	text-align:center;
 }
-
 .gallery{
-	margin-top:15%;
-	margin-bottom:15%;
-	margin-left:5%;
+	margin:1.5% 0;
 }
-
+.sd-login-gal{
+	margin:10% 0;
+	padding:10%;
+}
 .gallery-child{
-	float:left;
+	display:inline-block;
 	width:25%;
 	padding:1.5%;
-	margin:2%;
+	margin:2.3%;
 	text-align:center;
 }
 .gallery-child a{
