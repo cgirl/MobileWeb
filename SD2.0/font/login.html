@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>登录页面</title>
+<link href="css/jquery.mobile-1.4.5.min.css" rel="stylesheet" type="text/css"/>
+<link href="css/my.css" rel="stylesheet" type="text/css"/>
+<script src="js/jquery.min.js" type="text/javascript"></script>
+<script src="js/jquery.mobile-1.4.5.min.js" type="text/javascript"></script>
+</head>
+<body>
+<div data-role="page" data-theme="b">
+    <header data-role="header">
+        <h1><br><br><br>商户自助服务平台<br><br><br><br></h1>
+    </header>
+    <section data-role="content">
+        <form method="get" action="index.html">
+            <input type="text" placeholder="请输入用户名" id="shname" value="">
+            <input type="text" placeholder="请输入密码" id="shpasswd" value="">
+            <label for="remember-pwd" id="reservedpwd">记住密码</label>
+            <input name="remember-pwd" data-mini="true" id="remember-pwd" type="checkbox">
+            <br>
+            <button type="submit" id="shsubmit">登陆</button>
+        </form>
+    </section>
+    <footer data-role="footer">
+        <label id="loginfooter">
+        	<br><br><br><br><br><br><br>
+        	&copy;大秦信息服务有限公司&nbsp;&nbsp;&nbsp;<br>
+        	公司网址：<a href="http://www.daqinch.com">www.daqinch.com</a>
+        	<br><br><br><br><br>
+        </label>
+    </footer>
+</div>
+</body>
+</html>
