@@ -97,6 +97,11 @@
 .sd-list-img{
 	height:100px;
 }
+#sd-first-li{
+	background-color:#373737;
+	font-weight:bold;
+	text-align:center;
+}
 #sd-collapsible{
 	padding:2% 5% 5% 2%;
 	margin:2%;

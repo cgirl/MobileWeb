@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>首页</title>
+<title>登录页面</title>
 <link href="css/jquery.mobile-1.4.5.min.css" rel="stylesheet" type="text/css"/>
 <link href="css/my.css" rel="stylesheet" type="text/css"/>
 <script src="js/jquery.min.js" type="text/javascript"></script>
@@ -12,67 +12,28 @@
 <body>
 <div data-role="page" data-theme="b">
     <header data-role="header">
-        <h1>首页</h1>
+        <h1>登录页面</h1>
     </header>
     <section data-role="content">
-    	<div data-role="collapsible" data-collapsed="false" data-inset="true" class="ui-nodisc-icon ui-alt-icon">
-    		<h2>我的选项卡</h2>
-            <div class="gallery-child" id="gallery-child1"> <a href="merchinfo.html"><br>
-                <img src="css/images/icons-png/shop-black.png" />
-                <label>商户信息</label>
-                <br>
-                </a>
-            </div>
-            <div class="gallery-child" id="gallery-child2"> <a href="#"><br>
-                <img src="css/images/icons-png/heart-black.png" />
-                <label>当日流水</label>
-                <br>
-                </a> </div>
-            <div class="gallery-child" id="gallery-child3"> <a href="#"><br>
-                <img src="css/images/icons-png/calendar-black.png" />
-                <label>历史流水</label>
-                <br>
-                </a> </div>
-            <div class="gallery-child" id="gallery-child4"> <a href="#"><br>
-                <img src="css/images/icons-png/check-black.png" />
-                <label>手&nbsp;续&nbsp;费</label>
-                <br>
-                </a> </div>
-            <div class="gallery-child" id="gallery-child5"> <a href="#"><br>
-                <img src="css/images/icons-png/star-black.png" />
-                <label>银行账号</label>
-                <br>
-                </a> </div>
-            <div class="gallery-child" id="gallery-child6"> <a href="#"><br>
-                <img src="css/images/icons-png/cloud-black.png" />
-                <label>终端管理</label>
-                <br>
-                </a> </div>
-            <div class="gallery-child" id="gallery-child7"> <a href="#"><br>
-                <img src="css/images/icons-png/tag-black.png" />
-                <label>商户资料</label>
-                <br>
-                </a> </div>
-            <div class="gallery-child" id="gallery-child8"> <a href="#"><br>
-                <img src="css/images/icons-png/arrow-d-black.png" />
-                <label>日&nbsp;报&nbsp;表</label>
-                <br>
-                </a> </div>
-            <div class="gallery-child" id="gallery-child9"> <a href="#"><br>
-                <img src="css/images/icons-png/eye-black.png" />
-                <label>报表任务</label>
-                <br>
-                </a> </div>
+    	<div class="div-theme-b">
+    		<div class="div-img-center"></div>
+    		<div class="div-text-align">商户自助服务平台</div>
+    	</div>
+    	<div class="div-theme-b sd-login-gal">
+        <form method="get" action="index.html">
+            <input type="text" placeholder="请输入用户名" id="shname" value="">
+            <input type="text" placeholder="请输入密码" id="shpasswd" value="">
+            <label for="remember-pwd" id="reservedpwd">记住密码</label>
+            <input name="remember-pwd" data-mini="true" id="remember-pwd" type="checkbox">
+            <br>
+            <button type="submit" id="shsubmit">登陆</button>
+        </form>
+        </div>
+        <div id="loginfooter">
+        	&copy;大秦信息服务有限公司&nbsp;&nbsp;&nbsp;<br>
+        	公司网址：<a href="http://www.daqinch.com">www.daqinch.com</a>
         </div>
     </section>
-    <footer data-role="footer" data-position="fixed" data-id="footernav">
-        <div data-role="navbar">
-            <ul>
-                <li><a href="index.html" class="ui-btn-active ui-state-persist" data-icon="grid">首页</a></li>
-                <li><a href="admin.html" data-icon="home">我的</a></li>
-            </ul>
-        </div>
-    </footer>
 </div>
 </body>
 </html>

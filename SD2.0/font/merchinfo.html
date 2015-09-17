@@ -13,8 +13,8 @@
 <div data-role="page" data-theme="b">
     <section data-role="content">
     	<a href="index.html" class="ui-btn ui-icon-carat-l ui-btn-icon-left">商户信息</a>
-    	<div class="div-theme-b" id="sd-collapsible">
-    	<div data-role="collapsible" data-collapsed-icon="plus" data-expanded-icon="minus" data-collapsed="false">
+    	<div data-role="collapsibleset" data-content-theme="a">
+    	<div data-role="collapsible" data-collapsed-icon="plus" data-expanded-icon="minus">
     		<h4>基本信息</h4>
 			<ul data-role="listview" data-inset="false">
 				<li>商户名称<span class="sd-list-span">小组饭</span></li>
@@ -25,8 +25,8 @@
 				<li class="sd-list-img">商户照片展示<span class="sd-list-span"><img src="css/images/touxiang-mini.jpg"></span></li>
 			</ul>
 		</div>
-    	<div data-role="collapsible" data-collapsed-icon="plus" data-expanded-icon="minus" data-collapsed="false">
-    		<h4>联系方式</h4>
+		<div data-role="collapsible" data-collapsed-icon="plus" data-expanded-icon="minus">
+			<h4>联系方式</h4>
 			<ul data-role="listview" data-inset="false">
 				<li>联系姓名<span class="sd-list-span">某总</span></li>
 				<li>手机号码<span class="sd-list-span">16688886666</span></li>
@@ -42,8 +42,8 @@
     <footer data-role="footer" data-position="fixed" data-id="footernav">
     	<div data-role="navbar">
     		<ul>
-    			<li><a href="index.html" data-icon="grid">首页</a></li>
-    			<li><a href="admin.html" class="ui-btn-active ui-state-persist" data-icon="home">我的</a></li>
+    			<li><a href="index.html" class="ui-btn-active ui-state-persist" data-icon="grid">首页</a></li>
+    			<li><a href="admin.html" data-icon="home">我的</a></li>
     		</ul>
     	</div>
     </footer>
